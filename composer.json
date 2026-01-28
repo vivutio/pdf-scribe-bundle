@@ -1,0 +1,28 @@
+{
+    "name": "vivutio/pdf-scribe-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony 7/8 bundle for PDF generation using Chrome Headless",
+    "keywords": ["symfony", "pdf", "chrome", "headless", "bundle", "html-to-pdf"],
+    "license": "MIT",
+    "require": {
+        "php": ">=8.2",
+        "symfony/config": "^7.0|^8.0",
+        "symfony/dependency-injection": "^7.0|^8.0",
+        "symfony/http-kernel": "^7.0|^8.0",
+        "symfony/process": "^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vivutio\\PdfScribeBundle\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0-dev"
+        },
+        "symfony": {
+            "require": "^7.0|^8.0"
+        }
+    },
+    "minimum-stability": "stable"
+}
