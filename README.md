@@ -1,5 +1,9 @@
 # PDF Scribe Bundle
 
+[![Packagist Version](https://img.shields.io/packagist/v/vivutio/pdf-scribe-bundle)](https://packagist.org/packages/vivutio/pdf-scribe-bundle)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/vivutio/pdf-scribe-bundle)](https://packagist.org/packages/vivutio/pdf-scribe-bundle)
+[![License](https://img.shields.io/packagist/l/vivutio/pdf-scribe-bundle)](https://packagist.org/packages/vivutio/pdf-scribe-bundle)
+
 A Symfony 7/8 bundle for generating PDFs using Chrome Headless. Provides excellent CSS support with the modern Chrome rendering engine.
 
 ## Installation
