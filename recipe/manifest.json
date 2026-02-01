@@ -1,0 +1,12 @@
+{
+    "bundles": {
+        "Vivutio\\PdfScribeBundle\\PdfScribeBundle": ["all"]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    },
+    "env": {
+        "PDF_SCRIBE_BINARY": "\"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\""
+    },
+    "aliases": ["pdf-scribe", "pdf"]
+}

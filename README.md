@@ -2,34 +2,6 @@
 
 A Symfony 7/8 bundle for generating PDFs using Chrome Headless. Provides excellent CSS support with the modern Chrome rendering engine.
 
-## Requirements
-
-- PHP 8.2+
-- Symfony 7 or 8
-- **Google Chrome** or **Chromium** installed on the server
-
-### Installing Chrome/Chromium
-
-**macOS** — Chrome is typically already installed:
-```
-/Applications/Google Chrome.app/Contents/MacOS/Google Chrome
-```
-
-**Ubuntu/Debian:**
-```bash
-# Chromium
-sudo apt-get install chromium-browser
-
-# Or Google Chrome
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo dpkg -i google-chrome-stable_current_amd64.deb
-```
-
-**Docker:**
-```dockerfile
-RUN apt-get update && apt-get install -y chromium
-```
-
 ## Installation
 
 ```bash
