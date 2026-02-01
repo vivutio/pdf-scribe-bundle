@@ -1,6 +1,0 @@
-pdf_scribe:
-    binary_path: '%env(PDF_SCRIBE_BINARY)%'
-    timeout: 120
-    options:
-        print-background: true
-        no-pdf-header-footer: true
